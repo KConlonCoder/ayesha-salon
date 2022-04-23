@@ -1,58 +1,18 @@
-<<<<<<< HEAD
-=======
-/* Box Model Hack */
-* {
-  box-sizing: border-box;
-}
-
-/* Clear fix hack */
-.clearfix:after {
-     content: ".";
-     display: block;
-     clear: both;
-     visibility: hidden;
-     line-height: 0;
-     height: 0;
-}
-
-.clear {
-	clear: both;
-}
-
->>>>>>> d7605aed9b473ac6f47abbe1ebe37cbe7a84fac6
 /******************************************
 /* BASE STYLES
 /*******************************************/
 
-<<<<<<< HEAD
 body * {
   font-family: Georgia, 'Times New Roman', Times, serif;
   line-height: 150%;
 }
 
-=======
-body {
-  font-family:Georgia, 'Times New Roman', Times, serif;
-  line-height: 150%;
-}
-
-body > * {
-  width: 100%;
-  padding: 0 10%;
-}
-
->>>>>>> d7605aed9b473ac6f47abbe1ebe37cbe7a84fac6
 header {
   padding: 0;
 }
 
-<<<<<<< HEAD
 section {
   margin: 3% 0;
-=======
-body * {
-  border: 1px dotted black;
->>>>>>> d7605aed9b473ac6f47abbe1ebe37cbe7a84fac6
 }
 
 ul, li {
@@ -62,12 +22,9 @@ ul, li {
 
 nav {
   text-align: center;
-<<<<<<< HEAD
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-=======
->>>>>>> d7605aed9b473ac6f47abbe1ebe37cbe7a84fac6
 }
 
 .align-left {
@@ -79,31 +36,6 @@ a {
   text-decoration: none;
 }
 
-<<<<<<< HEAD
-=======
-/******************************************
-/* LAYOUT
-/*******************************************/
-body > *,
-header > * {
-  float: left;
-}
-
-.col-1-2,
-.col-1-3 {
-  float: left;
-  text-align: center;
-}
-
-.col-1-2 {
-  width: 50%;
-}
-
-.col-1-3 {
-  width: 33.3333%;
-}
-
->>>>>>> d7605aed9b473ac6f47abbe1ebe37cbe7a84fac6
 .standout-box {
   background: black;
   color: white;
@@ -111,34 +43,16 @@ header > * {
   padding: 3%;
 }
 
-<<<<<<< HEAD
 .button-primary {
   background: white;
   color: black;
   padding: 10px;
-=======
-.first-visit {
-  width: 30%;
-}
-
-.b-name {
-  width: 90%;
-  margin: 0 5%;
-}
-
-.button-primary {
-  background: white;
-  color: black;
->>>>>>> d7605aed9b473ac6f47abbe1ebe37cbe7a84fac6
 }
 
 .button-secondary {
   background: black;
   color: white;
-<<<<<<< HEAD
   padding: 10px;
-=======
->>>>>>> d7605aed9b473ac6f47abbe1ebe37cbe7a84fac6
 }
 
 .deemphasize {
@@ -149,7 +63,6 @@ header > * {
   text-align: center;
 }
 
-<<<<<<< HEAD
 .indent-light > * {
   margin-left: 2%;
 }
@@ -368,8 +281,3 @@ strong {
 /* body * {
   border: 1px dotted black;
 } */
-=======
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
->>>>>>> d7605aed9b473ac6f47abbe1ebe37cbe7a84fac6
